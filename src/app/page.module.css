@@ -1,10 +1,14 @@
 .main {
+  border: 1px solid gainsboro;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
+  justify-content: center;
   min-height: 100vh;
+}
+.container{
+  width: 1320px;
+  /* margin:auto; */
+  border: 1px solid gray;
+
 }
 
 .description {
