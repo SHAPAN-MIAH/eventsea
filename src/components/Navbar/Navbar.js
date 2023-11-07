@@ -1,14 +1,15 @@
-
+"use client"
 import React from 'react';
 import logo from "../../Assets/Images/eventsea.png"
 import style from "./Navbar.module.css"
+import Showcase from '../Showcase/Showcase';
 const Navbar = () => {
   return (
     <div className={style.navbar_section}>
       <div className='container'>
         <div className={style.nav}>
           <div className='logo_container'>
-            {/* <img src={logo} alt=""/> */}
+            <img src={logo} alt=""/>
             <h3>Event Sea</h3>
 
           </div>
