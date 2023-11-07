@@ -1,0 +1,21 @@
+.navbar_section {
+  width: 100%;
+  height: 80px;
+  background: gainsboro;
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.nav_menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_menu li {
+  list-style: none;
+  padding: 0px 10px;
+  cursor: pointer;
+}

@@ -1,15 +1,10 @@
 .main {
-  border: 1px solid gainsboro;
-  display: flex;
-  justify-content: center;
-  min-height: 100vh;
+  /* border: 1px solid gainsboro; */
+  /* display: flex;
+  justify-content: center; */
+  /* min-height: 100vh; */
 }
-.container{
-  width: 1320px;
-  /* margin:auto; */
-  border: 1px solid gray;
 
-}
 
 .description {
   display: inherit;
