@@ -1,4 +1,40 @@
-.showcase_banner_container{
+.showcase_banner_container {
   width: 100%;
   height: 80vh;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Rajdhani', sans-serif;
+}
+.search_container {
+  width: 1000px;
+  height: 280px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-left: 24%;
+  margin-top: -500px;
+  position: absolute;
+  z-index: 999;
+}
+.search_menu_bar {
+  width: 400px;
+  height: 70px;
+  position: absolute;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 29%;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.search_menu_bar ul {
+  display: flex;
+  justify-content: space-between;
+}
+.search_menu_bar ul li {
+  list-style: none;
+  padding: 0px 20px;
+  cursor: pointer;
 }

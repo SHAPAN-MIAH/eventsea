@@ -1,18 +1,15 @@
 import styles from "./page.module.css";
 import Link from "next/link";
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/Shared/Navbar/Navbar";
 import Showcase from "@/components/Showcase/Showcase";
+import Footer from "@/components/Shared/Footer/Footer";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div>
         <Navbar />
         <Showcase />
-        <div className={styles.container}>
-          <Link href="/about">about</Link>
-        </div>
-      </div>
+        <Footer />
     </main>
   );
 }

@@ -1,9 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import logo from "../../Assets/Images/event sea logo.png";
+import logo from "../../../Assets/Images/event_sea_logo-removebg.png";
 import style from "./Navbar.module.css";
-
 
 const Navbar = () => {
   return (
@@ -27,9 +26,9 @@ const Navbar = () => {
               <li>Hotel</li>
               <li>Tour</li>
             </ul>
-          </div>
-          <div className="profile_menu">
-            <span>Login</span>
+            <div className="profile_menu">
+              <span>Login</span>
+            </div>
           </div>
         </div>
       </div>

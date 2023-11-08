@@ -1,0 +1,43 @@
+.footer_section {
+  height: 350px;
+  width: 100%;
+  background: #011627f1;
+  padding: 50px 0px;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  
+}
+.footer_content_slice{
+  margin: 0px 20px;
+}
+.footer_content_slice h6{
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.footer_links_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer_link {
+  list-style: none;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px 0px;
+}
+.footer_link a{
+  text-decoration: none;
+  color: #fff;
+}
+.payment_methods{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px 10px ;
+}
+.payment_image{
+  list-style: none;
+}
