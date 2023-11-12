@@ -64,31 +64,31 @@ const Footer = () => {
             <h6>Payment Methods</h6>
             <ul className={style.payment_methods}>
               <li className={style.payment_image}>
-                <Image src={visa} width="60" height="50" />
+                <Image src={visa} width="60" height="42" />
               </li>
               <li className={style.payment_image}>
-                <Image src={amex} width="60" height="50" />
+                <Image src={amex} width="60" height="42" />
               </li>
               <li className={style.payment_image}>
-                <Image src={mastercard} width="60" height="50" />
+                <Image src={mastercard} width="60" height="42" />
               </li>
               <li className={style.payment_image}>
-                <Image src={dbbl} width="60" height="50" />
+                <Image src={dbbl} width="60" height="42" />
               </li>
               <li className={style.payment_image}>
-                <Image src={bkash} width="60" height="50" />
+                <Image src={bkash} width="60" height="42" />
               </li>
               <li className={style.payment_image}>
-                <Image src={nagad} width="60" height="50" />
+                <Image src={nagad} width="60" height="42" />
               </li>
               <li className={style.payment_image}>
-                <Image src={upay} width="60" height="50" />
+                <Image src={upay} width="60" height="42" />
               </li>
               <li className={style.payment_image}>
-                <Image src={union} width="60" height="50" />
+                <Image src={union} width="60" height="42" />
               </li>
               <li className={style.payment_image}>
-                <Image src={tap} width="60" height="50" />
+                <Image src={tap} width="60" height="42" />
               </li>
             </ul>
           </div>

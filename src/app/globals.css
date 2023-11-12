@@ -8,11 +8,10 @@ body {
   /* font-family: 'Jost', sans-serif;
     font-family: 'Poppins', sans-serif; */
   font-family: "Rajdhani", sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
 }
 
 .container {
-  width: 1320px;
+  width: 1200px;
   margin: auto;
   font-family: "Rajdhani", sans-serif;
 }
