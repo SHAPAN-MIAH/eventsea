@@ -4,6 +4,7 @@ import Navbar from "@/components/Shared/Navbar/Navbar";
 import Showcase from "@/components/Showcase/Showcase";
 import Footer from "@/components/Shared/Footer/Footer";
 import AdvertisementSection from "@/components/sections/AdvertisementSection/AdvertisementSection";
+import OfferSection from "@/components/sections/OfferSection/OfferSection";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Navbar />
         <Showcase />
         <AdvertisementSection/>
+        <OfferSection/>
         <Footer />
     </main>
   );

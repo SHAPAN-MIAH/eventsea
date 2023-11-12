@@ -1,0 +1,10 @@
+.offer_section{
+  margin: 0px 0px 60px 0px;
+}
+.offer_content_container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  font-family: 'Jost', sans-serif;
+  margin-top: 10px;
+}
